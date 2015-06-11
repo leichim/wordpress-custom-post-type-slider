@@ -10,7 +10,7 @@
                 <div class="slide">
                     <?php if( get_post_meta( $post->ID, "slider_image_value", true ) ) : ?>
                         <a href="<?php echo get_post_meta( $post->ID, "slider_link_value", true ) ?>" rel="bookmark">
-                        <   img src="<?php echo get_post_meta( $post->ID, "slider_image_value", true ); ?>" alt="<?php the_title(); ?>" />
+                            <img src="<?php echo get_post_meta( $post->ID, "slider_image_value", true ); ?>" alt="<?php the_title(); ?>" />
                         </a>
                     <?php endif; ?>
                     <div class="caption">
